@@ -24,6 +24,14 @@ const links = [
         descripcion: " en Yutu!",
         faIcon: "fab fa-youtube "
     },
+    {
+        id: 4,
+        titulo: "SuperProf de JavaScript",
+        link: "https://www.superprof.cl/aprende-javascript-transforma-carrera-tecnologia-soy-graduado-ingenieria-puedo-ayudar-dar-pasos-firmes-este.html",
+        linkText: "Agenda ahora",
+        descripcion: " una clase para aprender JavaScript!",
+        faIcon: "fa-solid fa-chalkboard-user "
+    },
 ]
 
 export default links
