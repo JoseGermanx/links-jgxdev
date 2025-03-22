@@ -6,7 +6,7 @@ const links = [
         link: "https://railway.com?referralCode=RhMImJ",
         linkText: "Despliega ",
         descripcion: " tu proyecto de nodejs en un par de clicks",
-        faIcon: "fa-regular fa-server "
+        faIcon: "fa-solid fa-server "
     },
     {
         id: 1,
