@@ -22,14 +22,14 @@ const links = [
         link: "https://habits.betacode.cl",
         linkText: "Haz seguimiento gratis",
         descripcion: " a tus hábitos diarios",
-        faIcon: "fa-regular fa-flag-checkered "
+        faIcon: "fa-solid fa-flag-checkered "
     },
     {
         id: 3,
         titulo: "Twitch",
         link: "https://www.twitch.tv/josegermanx/",
         linkText: "Directos",
-        descripcion: " para aprender programación y nuevos frameworks",
+        descripcion: " para convresar, aprender programación y nuevos frameworks",
         faIcon: "fab fa-twitch "
     },
     {
