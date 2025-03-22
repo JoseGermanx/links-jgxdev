@@ -18,6 +18,14 @@ const links = [
     },
     {
         id: 2,
+        titulo: "Habits Tracker",
+        link: "https://habits.betacode.cl",
+        linkText: "Haz seguimiento gratis",
+        descripcion: " a tus hábitos diarios",
+        faIcon: "fa-regular fa-flag-checkered "
+    },
+    {
+        id: 3,
         titulo: "Twitch",
         link: "https://www.twitch.tv/josegermanx/",
         linkText: "Directos",
@@ -25,7 +33,7 @@ const links = [
         faIcon: "fab fa-twitch "
     },
     {
-        id: 3,
+        id: 4,
         titulo: "YouTube",
         link: "https://www.youtube.com/@josegermanx/",
         linkText: "Mi canal personal",
@@ -33,7 +41,7 @@ const links = [
         faIcon: "fab fa-youtube "
     },
     {
-        id: 4,
+        id: 5,
         titulo: "SuperProf de JavaScript",
         link: "https://www.superprof.cl/aprende-javascript-transforma-carrera-tecnologia-soy-graduado-ingenieria-puedo-ayudar-dar-pasos-firmes-este.html",
         linkText: "Agenda ahora",
