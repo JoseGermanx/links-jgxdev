@@ -1,14 +1,6 @@
 
 const links = [
     {
-        id: 0,
-        titulo: "Tu proyecto de Nodejs en producción.",
-        link: "https://railway.com?referralCode=RhMImJ",
-        linkText: "Despliega ",
-        descripcion: " tu proyecto de nodejs en un par de clicks",
-        faIcon: "fa-solid fa-server "
-    },
-    {
         id: 1,
         titulo: "Newsletter",
         link: "https://www.linkedin.com/newsletters/7078460407316635648/",
@@ -29,7 +21,7 @@ const links = [
         titulo: "Twitch",
         link: "https://www.twitch.tv/josegermanx/",
         linkText: "Directos",
-        descripcion: " para convresar, aprender programación y nuevos frameworks",
+        descripcion: " para trabajar en compañia y aprender. ¡Te espero!",
         faIcon: "fab fa-twitch "
     },
     {
@@ -47,14 +39,6 @@ const links = [
         linkText: "Agenda ahora",
         descripcion: " una clase para aprender JavaScript!",
         faIcon: "fa-solid fa-chalkboard-user "
-    },
-    {
-        id: 6,
-        titulo: "Hosting y VPS en Descuento",
-        link: "https://hostinger.com?REFERRALCODE=JOSEGERMANX",
-        linkText: "Click aquí https://hostinger.com/josegermanx",
-        descripcion: " para que disfrutes del 20% de descuento",
-        faIcon: "fa-solid fa-server "
     }
 ]
 

@@ -1,0 +1,20 @@
+---
+import recomendacionesData from '../data/recomendacionesData.js';
+---
+
+<section class="highlights-section py-8">
+  <h2 class="text-3xl font-bold mb-6 text-center">Mis recomendaciones</h2>
+  <div class="flex flex-wrap justify-center gap-6">
+    {recomendacionesData.slice(0, 3).map((item) => (
+      <a href={item.link} class="block max-w-xs w-full bg-yellow-100 rounded-xl shadow-lg p-5 hover:bg-yellow-200 transition" target="_blank" rel="noopener noreferrer">
+        <div class="flex items-center mb-2">
+          <i class={item.faIcon + ' text-2xl mr-3 text-yellow-700'}></i>
+          <span class="font-semibold text-lg text-yellow-900">{item.titulo}</span>
+        </div>
+        <div class="text-yellow-800">
+          <span class="font-bold">{item.linkText}</span>{item.descripcion}
+        </div>
+      </a>
+    ))}
+  </div>
+</section>
