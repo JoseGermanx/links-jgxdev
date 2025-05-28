@@ -48,6 +48,14 @@ const links = [
         descripcion: " una clase para aprender JavaScript!",
         faIcon: "fa-solid fa-chalkboard-user "
     },
+    {
+        id: 6,
+        titulo: "Hosting y VPS en Descuento",
+        link: "https://hostinger.com?REFERRALCODE=JOSEGERMANX",
+        linkText: "Click aquí https://hostinger.com/josegermanx",
+        descripcion: " para que disfrutes del 20% de descuento",
+        faIcon: "fa-solid fa-server "
+    }
 ]
 
 export default links
