@@ -39,6 +39,22 @@ const links = [
         linkText: "Agenda ahora",
         descripcion: " una clase para aprender JavaScript!",
         faIcon: "fa-solid fa-chalkboard-user "
+    },
+    {
+        id: 6,
+        titulo: "GitHub",
+        link: "https://github.com/JoseGermanx",
+        linkText: "Mi perfil",
+        descripcion: " en GitHub",
+        faIcon: "fab fa-github "
+    },
+    {
+        id: 7,
+        titulo: "Aprende JavaScript con IA",
+        link: "https://asistente-js.betacode.cl",
+        linkText: "Prueba gratis",
+        descripcion: " mi asistente de JavaScript potenciado por IA",
+        faIcon: "fa-solid fa-robot "
     }
 ]
 
