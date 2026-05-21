@@ -1,34 +1,57 @@
 ---
-import Hostinger from '../assets/hostinger.png'
+import HostingerImg from "../assets/hostinger.png";
+import HostingerVideo from "../assets/video_hosting.mp4";
 ---
 
-  <section class="bg-gray-50 py-24">
-            <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 text-center mb-12">
-            <h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-                        Recomendación de hosting
-                    </h2>
-            </div>
-            <img
-                src={Hostinger.src}
+<section class="bg-gray-900 py-24">
+  <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 text-center mb-12">
+    <h2 class="text-3xl font-bold tracking-tight text-gray-200 sm:text-4xl">
+      Recomendación de hosting
+    </h2>
+  </div>
+  <div class="text-center mb-4">
+    <p class="text-lg leading-8 text-gray-300">
+      Hostinger ofrece planes de hosting compartido, VPS y WordPress optimizados
+      para un rendimiento excepcional.
+    </p>
+    
+    <a
+      href="https://www.hostg.xyz/aff_ad?campaign_id=9839&aff_id=138216"
+      target="_blank"
+      rel="noopener noreferrer"
+      class="mt-6 inline-block rounded-md bg-blue-600 px-5 py-3 text-base font-medium text-white hover:bg-blue-700"
+    >
+      Obtén hasta 78% de descuento en hosting web
+    </a>
+  </div>
+  <video class="mx-auto mb-8 rounded-lg shadow-lg"
+  src={HostingerVideo}
+    autoplay
+    muted
+    loop
+  ></video>
+  <!-- <img
+                src={HostingerImg.src}
                 alt="Hostinger Logo"
                 class="mx-auto mb-8"
-            />
-            <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-                <div class="text-center">
-                    <h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-                        ¿Buscas un hosting confiable y asequible?
-                    </h2>
-                    <p class="mt-4 text-lg leading-8 text-gray-600">
-                        Hostinger ofrece planes de hosting compartido, VPS y WordPress optimizados para un rendimiento excepcional.
-                    </p>
-                    <a
-                        href="https://www.hostg.xyz/aff_ad?campaign_id=9839&aff_id=138216"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        class="mt-6 inline-block rounded-md bg-blue-600 px-5 py-3 text-base font-medium text-white hover:bg-blue-700"
-                    >
-                        Obtén hasta 78% de descuento en hosting web
-                    </a>
-                </div>
-            </div>
-        </section>
+            /> -->
+  <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+    <div class="text-center">
+      <h2 class="text-3xl font-bold tracking-tight text-gray-200 sm:text-4xl">
+        ¿Buscas un hosting confiable y asequible?
+      </h2>
+      <p class="mt-4 text-lg leading-8 text-gray-300">
+        Hostinger ofrece planes de hosting compartido, VPS y WordPress
+        optimizados para un rendimiento excepcional.
+      </p>
+      <a
+        href="https://www.hostg.xyz/aff_ad?campaign_id=9839&aff_id=138216"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="mt-6 inline-block rounded-md bg-blue-600 px-5 py-3 text-base font-medium text-white hover:bg-blue-700"
+      >
+        Obtén hasta 78% de descuento en hosting web
+      </a>
+    </div>
+  </div>
+</section>
